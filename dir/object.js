@@ -1,7 +1,8 @@
-var printDetails = function (person) {
+"use strict";
+const printDetails = (person) => {
     return 'The name is' + person.name + 'the age is' + person.age;
 };
-var john = {
+const john = {
     name: 'John Doe',
     age: 71,
     happy: false,
